@@ -193,6 +193,7 @@ a {
     transform: skew(-5deg);
     left: -55px;
     background: url(../images/Banner1.png) no-repeat center;
+    transition: 1s;
 }
 
 .bsmu__picture-wrap:after {
@@ -257,11 +258,3 @@ a {
     left: 146px;
     width: 100%;
 }
-
-.bsmu__picture-wrap.image-wrap {
-    transition: 1s;
-}
-
-/* .bsmu-slider__slide:last-child .bsmu__picture-wrap.image-wrap {
-    left: 0;
-} */
