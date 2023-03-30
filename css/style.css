@@ -258,7 +258,7 @@ a {
     width: 100%;
 }
 
-.bsmu-slider__slide {
+.bsmu__picture-wrap.image-wrap {
     transition: 1s;
 }
 
