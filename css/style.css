@@ -234,7 +234,7 @@ a {
 
 .bold {
     font-weight: 600;
-    display: inline-block;
+    display: contents;
 }
 
 .swiper-slide-active .bsmu__card-text-wrap {
@@ -256,5 +256,5 @@ a {
     z-index: 10;
     top: 500px;
     left: 146px;
-    width: 100%;
+    width: 112px;
 }
