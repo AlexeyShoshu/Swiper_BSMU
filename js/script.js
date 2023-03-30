@@ -12,6 +12,8 @@ new Swiper('.bsmu-slider', {
 
     slidesPerView: 6,
 
+    slideToClickedSlide: true,
+
     slidesPerScroll: 1,
 
     allowTouchMove: false,
