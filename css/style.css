@@ -1,0 +1,256 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+img {
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+
+.wrapper {
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.al-cntr {
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
+.jc-sb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.jc-cntr {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.jc-flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+
+
+.view-all {
+    margin-top: 30px;
+}
+
+.arrow {
+    width: 100%;
+    max-width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    background: url('../images/left.svg') no-repeat center;
+    cursor: pointer;
+}
+
+.arrow:not(:last-child) {
+    margin-right: 16px;
+}
+
+.arrow-right {
+    transform: rotate(180deg);
+}
+
+.image-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+.bsmu-slider,
+.resources-slider,
+.gallery-slider {
+    overflow: hidden;
+}
+
+.bsmu-slider__image img {
+    max-width: 100%;
+}
+
+
+
+
+
+.view-all-link {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+
+.view-all-link:after {
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 8px;
+    background-image: url(../images/Switch_right.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+
+/* News styles end */
+
+
+/* bsmus styles start */
+.bsmu__title:after {
+    margin: 0px -100% 0px 130px;
+}
+
+.bsmu__arrows {
+    margin-bottom: 27px;
+    display: none;
+}
+
+.bsmu__card-small-wrap {
+    width: 100%;
+}
+
+.bsmu__card-small:not(:last-child) {
+    margin-right: 20px;
+}
+
+.bsmu__card-small-block {
+    color: #4B4C4E;
+    max-width: 450px;
+}
+
+.swiper-slide-active .bsmu__card-small-desc {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.bsmu__card-small-desc {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bsmu__card-small-date {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 2px;
+    display: none;
+}
+
+.bsmu__card-small-text {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: none;
+}
+
+.bsmu__card-small-text:nth-child(even) {
+    margin-top: 0;
+}
+
+
+
+
+/* bsmus styles end */
+
+
+
+
+
+/* Swiper-bsmu */
+
+.swiper-slide-active {
+    width: 780px !important;
+}
+
+.bsmu__picture-wrap.image-wrap {
+    height: 600px;
+    position: relative;
+    transform: skew(-5deg);
+    left: -55px;
+    background: url(../images/Banner1.png) no-repeat center;
+}
+
+.bsmu__picture-wrap:after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+.swiper-slide-active .bsmu__picture-wrap.image-wrap::after {
+    content: '';
+    position: absolute;
+    background-color: #2E4A97BF;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .75;
+}
+
+.swiper-slide-active .bsmu__picture-wrap.image-wrap {
+    transform: skew(0);
+    left: 0;
+}
+
+.bsmu__card-small-block {
+    font-family: 'Manrope';
+    font-weight: 400;
+    color: white;
+    position: relative;
+    z-index: 5;
+}
+
+.bold {
+    font-weight: 600;
+    display: inline-block;
+}
+
+.bsmu__arrows {
+    margin-top: 30px;
+}
+
+.swiper-slide-active .bsmu__card-text-wrap {
+    padding: 30px 134px 114px 150px;
+}
+
+.bsmu__card-text-wrap {
+    padding: 50px 47px 504px 40px;
+}
+
+.swiper-slide-active .bsmu__arrows,
+.swiper-slide-active .bsmu__card-small-date,
+.swiper-slide-active .bsmu__card-small-text {
+    display: flex;
+}
