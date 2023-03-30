@@ -5,7 +5,7 @@ new Swiper('.bsmu-slider', {
     },
 
     autoplay: {
-        delay: 3000,
+        delay: 500000,
     },
 
     loop: true,
@@ -13,6 +13,8 @@ new Swiper('.bsmu-slider', {
     slidesPerView: 6,
 
     slidesPerScroll: 1,
+
+    allowTouchMove: false,
 
     breakpoints: {
         576: {
