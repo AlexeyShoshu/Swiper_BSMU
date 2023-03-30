@@ -245,16 +245,16 @@ a {
     padding: 50px 47px 504px 40px;
 }
 
-.swiper-slide-active .bsmu__arrows,
+.bsmu__arrows,
 .swiper-slide-active .bsmu__card-small-date,
 .swiper-slide-active .bsmu__card-small-text {
     display: flex;
 }
 
-.swiper-slide-active .bsmu__arrows {
+.bsmu__arrows {
     position: absolute;
     z-index: 10;
-    bottom: 50px;
+    top: 500px;
     left: 146px;
     width: 100%;
 }
