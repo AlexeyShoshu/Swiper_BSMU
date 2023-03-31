@@ -1,5 +1,8 @@
-body {
+*{
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Manrope';
 }
 
@@ -200,6 +203,7 @@ a {
 .bsmu-about-block {
     width: calc((100% - 40px) / 3);
     background: #FAFBFE;
+    padding: 30px;
 }
 
 .bsmu-about-block:not(:last-child) {
@@ -238,4 +242,21 @@ a {
 .bsmu-certification-pic {
     margin: 0 auto;
     margin-top: 40px;
+}
+
+.bsmu-about-block:last-child{
+    position: relative;
+}
+
+.bsmu-about-block:last-child::after {
+    content: '';
+    display: block;
+    background-image: url(../images/bsmu-printing.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 35%;
+    height: 181px;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
 }
