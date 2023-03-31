@@ -249,13 +249,10 @@ a {
 }
 
 .bsmu-about-block:last-child::after {
-    content: '';
+    content: url('../images/bsmu-printing.png');
     display: block;
-    background-image: url(../images/bsmu-printing.png);
-    background-repeat: no-repeat;
-    background-size: 100%; 
     width: 35%;
-    height: 181px;
+    height: auto;
     position: absolute;
     right: 0;
     bottom: 40px;
