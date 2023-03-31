@@ -1,0 +1,26 @@
+@media (min-width: 320px) and (max-width: 900px) {
+    .col-100-xs {
+        width: 100%;
+    }
+
+    .bsmu-about-block-title, .bsmu-about-block-text {
+        max-width: 900px; 
+    }
+
+    .bsmu-about-block:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .bsmu-about-block:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .bsmu-certification-title {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .bsmu-about {
+        margin: 50px 0;
+    }
+}
